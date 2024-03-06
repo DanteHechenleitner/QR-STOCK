@@ -1,0 +1,68 @@
+/* Reset de estilos */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333; /* Color del texto principal */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px; /* Ancho máximo para el contenido */
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Estilos de tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px; /* Aumentar el espacio interno */
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Borde inferior para todas las celdas */
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+}
+
+/* Estilos para filas alternas */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+a:hover {
+    color: #0056b3; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilos para botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
